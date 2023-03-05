@@ -1,0 +1,26 @@
+{
+  "name": "qpOASES",
+  "version": "1.0.0",
+  "license" : "LGPL",
+  "keywords": "qpOASES, parametric quadratic programming, active set method, model predictive control",
+  "description": "qpOASES library",
+  "authors":
+  [
+    {
+      "name": "Hidaka Sato",
+      "email": "hidaka.satou@arav.jp",
+      "maintainer": true
+    }
+  ],
+  "build":{
+    "srcFilter":
+      ["-<doc/>",
+       "-<examples/>",
+       "-<external/>",
+       "-<test/>",
+       "-<testing/>"
+      ]
+  },
+  "frameworks": "*",
+  "platforms": "*"
+}
