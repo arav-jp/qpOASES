@@ -14,7 +14,8 @@
   ],
   "build":{
     "srcFilter":
-      ["-<doc/>",
+      ["+<*>",
+       "-<doc/>",
        "-<examples/>",
        "-<external/>",
        "-<test/>",
